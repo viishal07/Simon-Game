@@ -28,24 +28,6 @@ function userFlash(btn){
 }
 
 
-// function levelup(){
-//     level++;
-//     h2.innerText=`level ${level}`;
-//     let randomIdx=Math.floor(Math.random()*4);
-//     let randomColor=btns[randomIdx];
-    
-//    let randombtn = document.querySelector(`.${randomColor}`);
-//     console.log(`Selected Button: ${randombtn}`);
-     
-//     if (randombtn) {
-//         gameseq.push(randomColor);
-//         console.log(`Game Sequence: ${gameseq}`);
-//         gameFlash(randombtn);
-//     } else {
-//         console.error(`No element found for color: ${randomColor}`);
-//     }
-   
-// }
 function levelup(){
     userseq=[];
     level++;
