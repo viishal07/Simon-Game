@@ -55,6 +55,14 @@ function checkAns(idx){
     }
 }
 
+// function btnpress(){
+//     let btn=this;
+//     userFlash(btn);
+//     userColor=btn.getAttribute("id");
+//     userseq.push(userColor);
+//     checkAns(userseq.length-1);
+// }
+
 function btnpress(){
     let btn=this;
     userFlash(btn);
